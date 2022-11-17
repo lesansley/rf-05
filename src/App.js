@@ -1,5 +1,5 @@
 import * as React from 'react'
-import '../box-styles.css'
+import '.styles/box-styles.css'
 
 const Box = ({size, className = '', style, ...otherProps}) => {
   const sizeClassName = size ? `box--${size}` : ''
