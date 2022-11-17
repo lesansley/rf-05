@@ -2,7 +2,7 @@
 
 ## Styling React components
 
-###Inline
+### Inline
 
 #### HTML e.g.
 
@@ -25,6 +25,13 @@ const myStyles = {
 }
  
 <div style={myStyles} />
+```
+
+### className
+
+```
+const sizeClassName = size ? `box--${size}` : ''
+<div className=`pink ${sizeClassName}` />
 ```
 
 Attribution: https://epicreact.dev/modules/react-fundamentals/
