@@ -2,7 +2,7 @@
 
 ## Styling React components
 
-### Inline
+### 1. Inline
 
 #### HTML e.g.
 
@@ -10,13 +10,13 @@
 
 #### React e.g.
 
-- `<div style={{marginTop: 20, backgroundColor: 'blue'}} />`
+`<div style={{marginTop: 20, backgroundColor: 'blue'}} />`
 
 __IMPORTANT__: The `{{` and `}}` is a combination of a JSX expression and an object expression.
 
 or
 
-- passing in an object 
+passing in an object 
 ```
 const myStyles = {
   marginTop: 20,
@@ -27,7 +27,7 @@ const myStyles = {
 <div style={myStyles} />
 ```
 
-### className
+### 2. className
 
 ```
 const sizeClassName = size ? `box--${size}` : ''
